@@ -1,0 +1,11 @@
+//
+// Created by hiago on 08/10/2025.
+//
+
+#ifndef LABORATORIO_HIAGOSANTOS60_LAB_7_H
+#define LABORATORIO_HIAGOSANTOS60_LAB_7_H
+
+void lab_7();
+
+
+#endif //LABORATORIO_HIAGOSANTOS60_LAB_7_H

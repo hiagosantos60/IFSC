@@ -1,0 +1,10 @@
+//
+// Created by aluno on 27/11/2025.
+//
+
+#ifndef LABORATORIO_HIAGOSANTOS60_LAB_13_H
+#define LABORATORIO_HIAGOSANTOS60_LAB_13_H
+
+void lab_13();
+
+#endif //LABORATORIO_HIAGOSANTOS60_LAB_13_H
