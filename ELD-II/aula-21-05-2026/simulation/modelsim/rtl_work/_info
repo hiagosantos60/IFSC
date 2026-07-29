@@ -1,0 +1,101 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/hiago.s2006/eld-II/aula-21-05-2026/timer_restored/simulation/modelsim
+Ccfg_ifsc
+etimer
+amulti_clock_arch
+DAx4 work 5 timer 16 multi_clock_arch 22 koRd6X5R:3iDd]nHPDHR@1
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 DEx4 work 5 timer 0 22 jP>U0l][Z6`CTGzA7oRd;2
+!i122 11
+Z5 w1779534295
+R0
+Z6 8../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+Z7 F../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd
+l0
+L114 1
+VK8>Kzi5nH:Xbh_5eO_cR_2
+!s100 aW7]NO6o:1I1L1O0dlFm=0
+Z8 OV;C;2020.1;71
+31
+Z9 !s110 1779541070
+!i10b 0
+Z10 !s108 1779541070.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd|
+Z12 !s107 ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd|
+!i113 1
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Etimer
+R5
+R1
+R2
+R3
+!i122 11
+R0
+R6
+R7
+l0
+L7 1
+VjP>U0l][Z6`CTGzA7oRd;2
+!s100 n=h8N=75b]SBHmQEZLcLZ2
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Asingle_clock_arch
+R1
+R2
+R3
+R4
+!i122 11
+l78
+Z15 L72 39
+Z16 VF=@QZ]_YMGk;T2b2AR@HE0
+Z17 !s100 h6F2JEZ1T?11TffXcRk_G1
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Amulti_clock_arch
+R1
+R2
+R3
+R4
+!i122 11
+l20
+Z18 L14 53
+Z19 VkoRd6X5R:3iDd]nHPDHR@1
+Z20 !s100 gWkOgLAE<ZRbVSQYW7:jE0
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14

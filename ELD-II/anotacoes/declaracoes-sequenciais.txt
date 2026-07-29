@@ -1,0 +1,103 @@
+# PROCESS
+- O process é usado para ter uma execução sequencial do código, como um código em C.
+- Todos os sinais LIDOS pelo process precisam estar na lista de sensibilidade
+- Sempre devemos ter cuida com IF e CASE para englobar todos os sinais, pois pode acabar gerando latches caso algum sinal seja esquecido e ele irá ser armazenado em memória. Em geral, esse tipo de comportamento representa erros.
+- Bloco sequencial dentro do VHDL concorrente: tudo dentro será executado em ordem, como uma rotina.
+
+## ESTRUTURA: 
+process(sensibilidade)
+   begin
+   -- código sequencial
+   end process;
+===========================================================================================================
+# DECLARAÇÃO IF	
+- Indicado para quando muitas operações dependem de uma mems condição booleana
+- Se um sinal não é atribuido por omissão, ele irá manter o valor, ou seja, gerar latch
+- Como as outras declarações, deve-se sempre abranger todos os casos  
+
+## ESTRUTURA
+if boolean_expre_1 then
+    sequencia_statement;
+elsif boolean_expre_2 then
+    sequencial_statement;
+else 
+    sequencial_statement;
+end if;
+
+### EXEMPLO
+architecture if_arch of mux4 is
+begin
+    process(a,b,c,d,s)
+    begin
+        if (s="00") then
+            x <= a;
+        elsif (s="01")then
+            x <= b;
+        elsif (s="10")then
+            x <= c;
+        else
+            x <= d;
+        end if;
+    end process;
+end if_arch;
+
+===========================================================================================================
+# DECLARAÇÃO CASE	
+- Também precisa abranger todas as possibilidades de combinação para não gerar latch
+
+## ESTRUTURA
+case( signal_name ) is
+    when choice_1 =>
+        sequencial statement;
+    when choice_2 =>
+        sequencial statement;
+    when others =>
+        sequencial statement;
+end case ;
+
+### EXEMPLO
+architecture case_arch of mux4 is
+begin
+    process(a,b,c,d,s)
+    begin
+        case(s) is
+            when "00" =>
+                x <= a;
+            when "01" =>
+                x <= b;
+            when "10" =>
+                x <= c;
+            when others =>
+                x <= d;
+        end case ;
+    end process;
+end case_arch;
+
+===========================================================================================================
+# FOR LOOP
+- NÃO deve ser tratado como um for de linguagens de programação de alto nível 
+- O FOR LOOP deve ser tratado como uma abreviação para declarações repetitivas
+- Gera hardware repetido, não é loop de software, gera hardware de uma vez
+
+## ESTRUTURA
+for index in loop_range loop
+    sequencial statements;
+end loop;
+
+# EXEMPLO XOR BIT A BIT
+architecture demo_arch of bit_xor is
+    constant WIDTH: integer := 4;
+begin
+    process(a,b)
+    begin
+        for i in (WIDTH-1) downto 0 loop
+            y(i) <= a(i) xor b(i);
+        end loop;
+    end process;
+end demo_arch; 
+
+===========================================================================================================
+
+
+
+

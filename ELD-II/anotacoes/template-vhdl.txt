@@ -1,0 +1,124 @@
+O DEVICE QUE UTILIZAMOS É O CICLONE IV EP4CE115F29C7 
+
+================================================================================
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
+
+entity <entity_name> is
+	generic
+	(
+		<name>	: <type>  :=	<default_value>;
+		...
+		<name>	: <type>  :=	<default_value>
+	);
+
+
+	port
+	(
+		-- Input ports
+		<name>	: in  <type>;
+		<name>	: in  <type> := <default_value>;
+
+		-- Inout ports
+		<name>	: inout <type>;
+
+		-- Output ports
+		<name>	: out <type>;
+		<name>	: out <type> := <default_value>
+	);
+end <entity_name>;
+
+
+architecture <arch_name> of <entity_name> is
+
+
+begin
+
+
+end <arch_name>;
+
+
+configuration of <arch_nam> is
+	for implementacao end for
+end for;
+
+================================================================================
+EXEMPLO 1: 
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL; -- Necessário para operações aritméticas
+
+entity contador_universal is
+    generic
+    (
+        W_DATA  : integer := 4;          -- Largura de bits do contador
+        MAX_VAL : integer := 15          -- Valor máximo opcional
+    );
+
+    port
+    (
+        -- Input ports
+        clk      : in  std_logic;
+        rst      : in  std_logic;        -- Reset assíncrono
+        load     : in  std_logic;        -- Habilita carga paralela
+        data_in  : in  unsigned(W_DATA-1 downto 0);
+
+        -- Output ports
+        count_out : out unsigned(W_DATA-1 downto 0)
+    );
+end contador_universal;
+
+architecture behavior of contador_universal is
+    -- Sinais internos (Declarações ficam antes do 'begin')
+    signal r_count : unsigned(W_DATA-1 downto 0);
+begin
+
+    -- Processo Sequencial
+    process(clk, rst)
+    begin
+        if rst = '1' then
+            r_count <= (others => '0');
+        elsif rising_edge(clk) then
+            if load = '1' then
+                r_count <= data_in;
+            else
+                r_count <= r_count + 1;
+            end if;
+        end if;
+    end process;
+
+    -- Atribuição contínua para a saída
+    count_out <= r_count;
+
+end behavior;
+
+================================================================================
+EXEMPLO 2:
+
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity porta_or is
+    port (
+        a, b : in  std_logic;
+        y    : out std_logic
+    );
+end porta_or;
+
+architecture comportamental of porta_or is
+begin
+    y <= a or b;
+end comportamental;
+
+architecture alternativa of porta_or is
+begin
+    y <= '1' when (a = '1' or b = '1') else '0';
+end alternativa;
+
+configuration cfg_minha_porta of porta_or is
+    for alternativa end for;
+end cfg_minha_porta;
+

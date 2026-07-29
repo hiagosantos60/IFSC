@@ -1,0 +1,49 @@
+A ideia central do execício é ter um flip flop D que regitre a operação de um bit shift tanto para a esquerda quanto para a direita, também é necessário que tenha controle sobre para
+qual lado será o shift e qual a palavra, ou seja, sequência de bits que irá ser usada para fazer a mundança
+
+Importante notar que em VHDL o operador "&" faz essa operação de rotear o bit ao final o ao início do argumento que foi passado, ou seja, tem que analisar como que está o vetor de bits
+para posicionar o bit novo na posição que desejamos
+
+Exemplo:
+
+CONCATENAÇÃO PARA A ESQUERDA
+Linha do código: r_next <= d_to_right & r_reg(3 downto 1);
+
+Valores do teste:
+d_to_right = 1
+r_reg = 1010 --valor registrado anteriomente e está em memória
+
+Passo 1: O código olha para a fatia r_reg(3 downto 1).
+No vetor 1010, os bits nas posições 3, 2 e 1 são os três primeiros bits.
+r_reg(3) é 1
+r_reg(2) é 0
+r_reg(1) é 1
+Portanto, r_reg(3 downto 1) isola o valor: 101
+
+Passo 2: O código faz a concatenação usando o &.
+Ele junta d_to_right com a fatia isolada:
+r_next <= 1 & 101;
+
+Passo 3: Na próxima subida do clock, r_reg recebe o valor de r_next.
+Resultado final de r_reg: 1101
+
+CONCATENAÇÃO PARA A DIREITA
+Linha do código: r_next <= r_reg(2 downto 0) & d_to_left;
+
+Valores do teste:
+d_to_left = 0
+r_reg = 1010
+
+Passo 1: O código olha para a fatia r_reg(2 downto 0).
+No vetor 1010, os bits nas posições 2, 1 e 0 são os três últimos bits.
+r_reg(2) é 0
+r_reg(1) é 1
+r_reg(0) é 0
+Portanto, r_reg(2 downto 0) isola o valor: 010
+
+Passo 2: O código faz a concatenação usando o &.
+Ele junta a fatia isolada com o d_to_left no final:
+r_next <= 010 & 0;
+
+Passo 3: Na próxima subida do clock, r_reg recebe o valor de r_next.
+Resultado final de r_reg: 0100

@@ -1,0 +1,2 @@
+# Projeto final ELD-II
+O projeto consiste em um relógio com botões de ajuste e reset implementado no kit de desenvolvimento DE2-115. Desenvolvemos o clock do projeto e os padrões do projeto estão descreto no relatório que está junto a esse repositório.

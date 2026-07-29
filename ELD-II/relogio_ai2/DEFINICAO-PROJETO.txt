@@ -1,0 +1,35 @@
+Family=Cyclone IV E, device=EP4CE115F29C7
+
+Entradas do Sistema (Inputs) - Na DE2-115 tem que usar inversor para o sinal vir correto 
+clock
+Reset  		  (KEY[0]) -- PIN_M23
+Adjust 		  (KEY[1]) -- PIN_M21
+Plus   		  (KEY[2]) -- PIN_N21
+Less   		  (KEY[3]) -- PIN_R24
+Hora Atual    (hour_in) 5 bits vem de timer
+Minuto Atual  (min_in) 6 bits vem de timer
+Segundo Atual (seg_in) 6 bits vem de timer
+
+Saídas do Sistema (Outputs)
+blink_h  -  piscar hora
+blink_m  -  piscar minuto
+blink_s  -  piscar segundo
+hour_out -  novo valor de horas
+min_out  -  novo valor de minutos
+seg_out  -  novo valor de segundo
+load 	 -  sinal que avisa o timer para pausar a contagem normal e aceitar os valores ajustados.
+
+Na placa: 
+HEX5 HEX4   HEX3 HEX2   HEX1 HEX0
+ H    H       M   M      S    S
+
+O código do top_timer está organizado da seguinte forma:
+- declaração de componentes;
+- declaração de sinais;
+- reset;
+- sincronização dos botões;
+- FSM;
+- timer;
+- blink;
+- conversão BCD;
+- displays.

@@ -1,0 +1,511 @@
+# do timer_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying /opt/altera/intelFPGA/20.1/modelsim_ae/linuxaloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {/home/hiago.s2006/eld-II/aula-21-05-2026/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:14:23 on May 23,2026
+# vcom -reportprogress 300 -93 -work work /home/hiago.s2006/eld-II/aula-21-05-2026/timer_restored/list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:14:23 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# 
+# stdin: <EOF>
+vsim work.timer(multi_clock_arch)
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:17:36 on May 23,2026
+# //  ModelSim - Intel FPGA Edition 2020.1 Feb 28 2020 Linux 6.12.86+deb13-amd64
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim - Intel FPGA Edition and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:20:07 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:20:07 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:20:11 on May 23,2026, Elapsed time: 0:02:35
+# Errors: 0, Warnings: 0
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:20:11 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+add wave -position insertpoint  \
+sim:/timer/mclk
+add wave -position insertpoint  \
+sim:/timer/mclk
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:20:48 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:20:48 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:20:51 on May 23,2026, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 0
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:20:51 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:23:54 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:23:54 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:23:59 on May 23,2026, Elapsed time: 0:03:08
+# Errors: 0, Warnings: 0
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:23:59 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# Value length (8) does not equal array index length (26).
+# ** UI-Msg: (vsim-4011) Invalid force value: 24999999 0.
+# Error in macro ./tb-timermulticlock.do line 18
+# Value length (8) does not equal array index length (26).
+# ** UI-Msg: (vsim-4011) Invalid force value: 24999999 0.
+# 
+#     while executing
+# "force -freeze sim:/timer/r_reg 24999999 0"
+DO tb-timermulticlock.do
+# invalid command name "DO"
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:25:50 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:25:50 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:25:54 on May 23,2026, Elapsed time: 0:01:55
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:25:54 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# Value length (8) does not equal array index length (26).
+# ** UI-Msg: (vsim-4011) Invalid force value: 24999999 0.
+# Error in macro ./tb-timermulticlock.do line 18
+# Value length (8) does not equal array index length (26).
+# ** UI-Msg: (vsim-4011) Invalid force value: 24999999 0.
+# 
+#     while executing
+# "force -freeze sim:/timer/r_reg 24999999 0"
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:26:36 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:26:36 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:26:41 on May 23,2026, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:26:41 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+wave zoom full
+# {0 ps} {1155 ps}
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:29:06 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:29:06 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:29:10 on May 23,2026, Elapsed time: 0:02:29
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:29:10 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:31:43 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:31:43 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:31:48 on May 23,2026, Elapsed time: 0:02:38
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:31:48 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+force -freeze sim:/timer/r_reg 10111110101111000001111111 0
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:46:43 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:46:43 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:46:47 on May 23,2026, Elapsed time: 0:14:59
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:46:47 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:48:28 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:48:28 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:48:32 on May 23,2026, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:48:32 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:53:26 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:53:26 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:53:31 on May 23,2026, Elapsed time: 0:04:59
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:53:31 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+do tb-timermulticlock.do
+# ** Warning: (vlib-34) Library already exists at "rtl_work".
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 09:57:50 on May 23,2026
+# vcom -reportprogress 300 -93 -work work ../../list_09_05_06_timer_CORRIGIDO_50mhz.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity timer
+# -- Compiling architecture multi_clock_arch of timer
+# -- Compiling architecture single_clock_arch of timer
+# -- Loading entity timer
+# -- Compiling configuration cfg_ifsc
+# -- Loading entity timer
+# -- Loading architecture multi_clock_arch of timer
+# End time: 09:57:50 on May 23,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 09:58:12 on May 23,2026, Elapsed time: 0:04:41
+# Errors: 0, Warnings: 5
+# vsim work.timer(multi_clock_arch) 
+# Start time: 09:58:12 on May 23,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.timer(multi_clock_arch)
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /timer
+# End time: 09:59:16 on May 23,2026, Elapsed time: 0:01:04
+# Errors: 0, Warnings: 5
