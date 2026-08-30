@@ -1,0 +1,46 @@
+* Ar-condicionado *
+Atributos:
+- Cor : Branco
+- Formato : retangular
+- Motor : True
+- 
+
+Métodos:
+- Resfriar o ar
+- Aquecer o ar
+- Circular o ar
+
+* Mesa * 
+Atributos:
+- Bases : 2
+- Tampão superior : True
+
+Métodos:
+- 
+
+* Lâmpada *
+Atributos:
+- Formato :
+- Cor :  
+- Intensidade : 
+
+Métodos:
+- Ligar :
+- Desligar : 
+
+=============================================================================================================================================
+
+Sistema para revenda de carros:
+Para o carro:
+# ATRIBUTOS
+- Cor
+- Fabricante
+- Modelo
+- Ano
+- Preço
+
+Jogo de fórmula 1:
+# ATRIBUTOS
+- Time
+- Posição
+- Velocidade

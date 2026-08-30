@@ -1,0 +1,18 @@
+// declaração de valores
+Livro a = new Livro("987", "viagens pela minha terra", "jonas", 2000);
+Livro b = new Livro("234", "memórias de um viajante", "kleber souza", 2016);
+Livro c = new Livro("456", "receitas brasileiras", "lucia maria", 2020);
+
+acervo.put(a.getiSBN(), a);
+acervo.put(b.getiSBN(), b);
+acervo.put(c.getiSBN(), c);
+
+// percorrendo todos os itens com chave e Valor
+acervo.forEach( (k,v) -> {
+    System.out.println(String.format("Chave: %s\nValor: %s", k,v));
+});
+
+// percorrendo todos os itens sem considerar a chave
+for (Livro livro: acervo.values()){
+    System.out.println(livro);
+}

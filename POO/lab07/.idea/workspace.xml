@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d3b50599-5ab1-4f86-a116-af6bf124b193" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/10c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/10e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/10o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/10p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/1c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/1e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/1o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/1p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/2c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/2e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/2o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/2p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/3c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/3e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/3o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/3p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/4c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/4e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/4o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/4p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/5c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/5e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/5o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/5p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/6c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/6e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/6o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/6p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/7c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/7e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/7o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/7p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/8e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/8o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/8p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/9c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/9e.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/9o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/9p.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/coringap.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/coringav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/fundoa.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/fundov.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/jc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/je.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/jo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/jp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/kc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/ke.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/ko.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/kp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/qc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/qe.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/qo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/bin/main/cartas/cartas/qp.png" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="3EqqGqTHWpH5x8kBlIBc6UBlVAS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/aluno/POO/lab07",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-26cb7f24e5b0-intellij.indexing.shared.core-IU-253.29346.138" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.29346.138" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d3b50599-5ab1-4f86-a116-af6bf124b193" name="Changes" comment="" />
+      <created>1780916360152</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1780916360152</updated>
+      <workItem from="1780916364232" duration="28000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
